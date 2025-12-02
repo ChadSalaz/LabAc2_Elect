@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+#taskForm label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#taskForm input[type="text"],
+#taskForm textarea {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    resize: vertical;
+}
+
+#addTaskBtn {
+    width: 100%;
+    padding: 12px;
+    background-color: #e0e0e0;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#addTaskBtn:hover {
+    background-color: #cccccc;
+}
+
+/* Table Styling */
+#taskListTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#taskListTable th, #taskListTable td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+#taskListTable th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Delete Button Styling */
+.delete-btn {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
